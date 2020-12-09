@@ -1,0 +1,56 @@
+
+    <% layout('layouts/boilerplate')%>
+    <div class="row">
+        <h1 class="text-center">New Artwork</h1>
+        <div class="col-6 offset-3">
+            <form action="/artworks" method="POST">
+                
+                
+                <div class= "mb-3">
+                    <label class="form-label" for="objectID">ObjectID</label>
+                    <input class="form-control" type="text" id="objectID" name="artwork[objectID]">
+                </div>
+
+                <div class= "mb-3">
+                    <label class="form-label" for="accessionYear">Accession Year</label>
+                    <input class="form-control" type="text" id="accessionYear" name="artwork[accessionYear]">
+                </div>
+
+                <div class= "mb-3">
+                    <label class="form-label" for="primaryImageSmall">Image Url</label>
+                    <input class="form-control" type="text" id="primaryImageSmall" name="artwork[primaryImageSmall]">
+                </div> 
+                
+                <div class= "mb-3">
+                    <label class="form-label" for="constituentULAN_URL">constituentULAN_URL</label>
+                    <input class="form-control" type="text" id="constituentULAN_URL" name="artwork[constituentULAN_URL]">
+                </div>
+
+                <div class= "mb-3">
+                    <label class="form-label" for="constituentWikidata_URL">constituentWikidata_URL</label>
+                    <input class="form-control" type="text" id="constituentWikidata_URL" name="artwork[constituentWikidata_URL]">
+                </div>
+
+                
+                <div class= "mb-3">
+                    <label class="form-label" for="department">Department</label>
+                    <input class="form-control" type="text" id="department" name="artwork[department]">
+                </div>
+                
+                <div class= "mb-3">
+                    <label class="form-label" for="title">Title</label>
+                    <input class="form-control" type="text" id="title" name="artwork[title]">
+                </div>
+
+
+                <div class= "mb-3">
+                    <label class="form-label" for="artistDisplayName">Artist Name</label>
+                    <input class="form-control" type="text" id="artistDisplayName" name="artwork[artistDisplayName]">
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-success">Add Artwork</button>
+                </div>
+            </form>
+        </div>
+    </div>
