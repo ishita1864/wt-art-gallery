@@ -1,0 +1,148 @@
+https://collectionapi.metmuseum.org/public/collection/v1/search?q=Madame%20X&artistOrCulture=John%20Singer%20Sargent
+
+
+
+{
+    "objectID": 435809,
+    "accessionYear": "1919",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500013247",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q43270",
+    "department": "European Paintings",
+    "title": "The Harvesters",
+    "artistDisplayName": "Pieter Bruegel the Elder"
+}
+
+
+{
+  "objectID": 436033,
+  "accessionYear": "1981",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278979.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115364",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q191748",
+  "department": "European Paintings",
+  "title": "Lukas Spielhausen",
+    "artistDisplayName": "Lucas Cranach the Elder"
+}
+
+
+db.artworks.insertMany(
+[
+{
+  "objectID": 544514,
+  "accessionYear": "1926",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/eg/web-large/DP355835.jpg",
+  "department": "Egyptian Art",
+  "title": "Fragment of a Queen's Face"
+}
+
+
+,
+{
+  "objectID": 437980,
+  "accessionYear": "1949",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130999.jpg",
+
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+  "department": "European Paintings",
+  "title": "Cypresses",
+    "artistDisplayName": "Vincent van Gogh"
+}
+
+,
+
+{
+  "objectID": 436105,
+  "accessionYear": "1931",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115221",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q83155",
+  "department": "European Paintings",
+  "title": "The Death of Socrates",
+    "artistDisplayName": "Jacques Louis David"
+}
+
+,
+
+
+{
+  "objectID": 436532,
+  "accessionYear": "1967",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+    
+  "department": "European Paintings",
+  "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+      "artistDisplayName": "Vincent van Gogh"
+}
+,
+
+{
+  "objectID": 437394,
+  "accessionYear": "1961",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP319026.jpg",
+  
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500011051",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5598",
+  "department": "European Paintings",
+  "title": "Aristotle with a Bust of Homer",
+    "artistDisplayName": "Rembrandt (Rembrandt van Rijn)"
+}
+
+
+,
+
+{
+  "objectID": 194241,
+  "accessionYear": "1917",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP246604.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500020750",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q493515",
+    
+  "department": "European Sculpture and Decorative Arts",
+  "title": "Saint Andrew",
+    "artistDisplayName": "Andrea Bregno"
+}
+
+,
+
+{
+  "objectID": 38153,
+  "accessionYear": "2015",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-1062-001.jpg",
+  "constituents": null,
+  "department": "Asian Art",
+  "objectName": "Figure",
+  "title": "Celestial dancer (Devata)",
+    "artistDisplayName": ""
+}
+
+,
+{
+  "objectID": 436575,
+  "accessionYear": "1929",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP349564.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010916",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q301",
+  
+  "department": "European Paintings",
+  "title": "View of Toledo",
+  "artistDisplayName": "El Greco (Domenikos Theotokopoulos)"
+}
+
+,
+
+{
+  "objectID": 354631,
+  "accessionYear": "1941",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DT11821.jpg",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500011051",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5598",
+
+  "department": "Drawings and Prints",
+  "title": "Christ Crucified between the Two Thieves: The Three Crosses",
+    "artistDisplayName": "Rembrandt (Rembrandt van Rijn)"
+}
+])
