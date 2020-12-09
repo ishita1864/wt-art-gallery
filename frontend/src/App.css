@@ -1,0 +1,34 @@
+.App{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Expressway', sans-serrif;
+	background: black;
+}
+
+.jumbotron{
+	padding-top: 70px;
+	color: #64a77d;
+		  background: black;
+	padding-bottom: 40px;
+}
+
+.name{
+	color: #64a77d;
+	text-align: center;
+	font-size: 70px;
+}
+
+
+.body{
+	text-align: center;
+	font-size: 25px;
+	color: #64a77d;
+	}
+
+	
+	#hrtag{
+        height: 1px;
+		background-color: #385c45;
+        border-color: #374b3e;
+    }
